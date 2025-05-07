@@ -41,13 +41,11 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-PACKAGES="$PACKAGES luci-app-aliyundrive-webdav"
 PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
-PACKAGES="$PACKAGES luci-app-mosdns"
 PACKAGES="$PACKAGES luci-app-openvpn"
 PACKAGES="$PACKAGES luci-app-openvpn-server"
-PACKAGES="$PACKAGES luci-app-quickstart"
-PACKAGES="$PACKAGES luci-app-store"
+
+
 
 
 # 判断是否需要编译 Docker 插件
