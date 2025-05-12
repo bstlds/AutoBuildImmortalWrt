@@ -70,7 +70,7 @@ elif [ "$count" -gt 1 ]; then
    # LAN口设置静态IP
    uci set network.lan.proto='static'
    # 多网口设备 支持修改为别的ip地址
-   uci set network.lan.ipaddr='10.10.10.5'
+   uci set network.lan.ipaddr='10.10.10.114'
    uci set network.lan.netmask='255.255.255.0'
    echo "set 10.10.10.5 at $(date)" >> $LOGFILE
    # 判断是否启用 PPPoE
